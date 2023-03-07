@@ -100,36 +100,36 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="https://astrus.tijan.dev/app"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Blog{" "}
+                      App{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="https://astrus.tijan.dev/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Pricing{" "}
+                      Home{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="mailto:astrus@tijan.dev"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      About{" "}
+                      astrus@tijan.dev{" "}
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
 
-            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            {/*<div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
                   Terms
@@ -164,7 +164,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+  </div>*/}
 
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
@@ -174,23 +174,23 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="https://astrus.tijan.dev/contact/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Open Support Ticket{" "}
+                      Contact{" "}
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="mailto:astrus@tijan.dev"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
                     >
                       {" "}
-                      Terms of Use{" "}
+                      astrus@tijan.dev{" "}
                     </a>
                   </li>
-                  <li>
+                  {/*<li>
                     <a
                       href="/"
                       className="mb-4 inline-block text-base font-medium text-body-color hover:text-primary"
@@ -198,7 +198,7 @@ const Footer = () => {
                       {" "}
                       About{" "}
                     </a>
-                  </li>
+</li>*/}
                 </ul>
               </div>
             </div>
@@ -207,7 +207,7 @@ const Footer = () => {
         <div className="bg-primary/10 py-8">
           <div className="container">
             <p className="text-center text-base text-body-color dark:text-white">
-              Created with 🤍 <a href="https://nextjstemplates.com" rel="nofollow noopener"> by BananaPay</a>.
+              Created with 🤍 <a href="https://nextjstemplates.com" rel="nofollow noopener"> by Astrus</a>.
             </p>
           </div>
         </div>

@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Crafted for Web3 Startups, DAOs and Individuals - Astrus Statistics"
+                paragraph="Create your subscriptions in seconds without and costs (not even gas fees!) and start receiving automated recurring crypto payments. Easily track your earnings in Astrus Statisctics Dashboard!"
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="Subscribers Overview" />
+                    <List text="Events Overview" />
+                    <List text="Lifetime Earnings" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Most popular Plans" />
+                    <List text="Active Subscribers" />
+                    <List text="Total Subscribers" />
                   </div>
                 </div>
               </div>
@@ -51,14 +51,20 @@ const AboutSectionOne = () => {
 
             <div className="w-full px-4 lg:w-1/2">
               <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+                className="wow fadeInUp relative mx-auto aspect-[25/20] max-w-[950px] lg:mr-0"
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
+                  src="/images/about/stats-dark.png"
+                  alt="stats-image"
                   fill
-                  className="mx-auto max-w-full lg:mr-0"
+                  className="mx-auto hidden max-w-full lg:mr-0 dark:block"
+                />
+                <Image
+                  src="/images/about/stats-light.png"
+                  alt="stats-image"
+                  fill
+                  className="mx-auto block max-w-full lg:mr-0 dark:hidden"
                 />
               </div>
             </div>

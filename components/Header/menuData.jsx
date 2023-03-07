@@ -12,18 +12,24 @@ const menuData = [
     newTab: false,
   },
   {
+    id: 3,
+    title: "Video",
+    path: "/video",
+    newTab: false,
+  },
+  /*{
     id: 33,
     title: "Blog",
     path: "/blog",
     newTab: false,
-  },
+  },*/
   {
     id: 3,
     title: "Support",
     path: "/contact",
     newTab: false,
   },
-  {
+  /*{
     id: 4,
     title: "More",
     newTab: false,
@@ -77,6 +83,6 @@ const menuData = [
         newTab: false,
       },
     ],
-  },
+  },*/
 ];
 export default menuData;

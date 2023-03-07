@@ -27,9 +27,9 @@ function Home() {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
+      {/*<Testimonials />
       <Pricing />
-      <Blog blogs={blogs} />
+  <Blog blogs={blogs} />*/}
       <Contact />
     </>
   );
