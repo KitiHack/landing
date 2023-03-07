@@ -10,7 +10,7 @@ const AboutSectionTwo = () => {
               className="wow fadeInUp relative mx-auto mb-12 aspect-[20/24] max-w-[650px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <iframe src="http://localhost:3002/#/v1/subscribe?subscription=eyJhcHBBZGRyZXNzIjoiMHg3MDM2NmYxQTVmMUMwNzYxMzZCYkRhNjI2MDM1OTdENDNBY2JCYjkzIiwiY2hhaW4iOiIweGZhIiwicGxhbklkIjoyfQ%3D%3D" style={{ borderRadius: "20px", width: "100%", height: "100%" }}>
+              <iframe src="https://astrus.tijan.dev/widget/#/v1/subscribe?subscription=eyJhcHBBZGRyZXNzIjoiMHg3MDM2NmYxQTVmMUMwNzYxMzZCYkRhNjI2MDM1OTdENDNBY2JCYjkzIiwiY2hhaW4iOiIweGZhIiwicGxhbklkIjoyfQ%3D%3D" style={{ borderRadius: "20px", width: "100%", height: "100%" }}>
 
               </iframe>
             </div>
@@ -30,7 +30,7 @@ const AboutSectionTwo = () => {
                   Astrus Widget
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  We have developed 2 Astrus widgets: Subscribe Widget and Cancel Subscription Widget - both accessible from admin dashboard. Try Astrus' Subscription Widget on the left.
+                  We have developed 2 Astrus widgets: Subscribe Widget and Cancel Subscription Widget - both accessible from admin dashboard. Try Astrus`&apos;` Subscription Widget on the left.
                 </p>
               </div>
               <div className="mb-1">

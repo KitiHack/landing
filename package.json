@@ -1,10 +1,10 @@
 {
-  "name": "startup-nextjs-template",
+  "name": "astrus-landing",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "typecheck": "tsc"
   },
@@ -15,6 +15,7 @@
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "firebase": "^9.17.1",
+    "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "next": "13.1.6",
     "next-themes": "^0.2.1",
